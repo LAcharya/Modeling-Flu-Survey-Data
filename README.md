@@ -81,7 +81,7 @@ We first performed exploratory data analysis and null imputation on our dataset 
 
 **Exploring Nulls**: The survey was done over phone and respondents were allowed to refuse to respond to any question asked. These represented a large portion of the nulls in the data. To better understand the distribution of nulls, we first examine which features had the most missing data (Figure 2 (Left)) and discovered that some features were missing upto half of their data. Next, we compared the number of nulls to the page number on the survey questions script that the question appeared on. We found that as the survey progressed, the number of null values increased (Figure 2 (Right)).    
 
-<img src="figures/page_num_nulls.png" height=400 />
+<img src="figures/page_num_nulls.png" width=500 />
 
 ###### **Figure 2.** ***Left**: A barchart of the top 10 of 36 features that had the most number of nulls. **Right**: A scatterplot of the number of null values in a given feature column versus the page number that the corresponding question appears on in the survey. There is a clear increase in the number of nulls as the survey progresses.*
 
@@ -180,7 +180,7 @@ Logistic Regression| 0.803| 0.789 | 0.928 |0.813|
 XGBoost| 0.852|0.730|0.879|0.942|
 Neural Network|0.823|0.897|0.790|0.873|
 
-<img src="figures/H1N1_initial_metrics.png" height=400 />
+<img src="figures/H1N1_initial_metrics.png" height=300 />
 
 ###### Figure 6.*Radar charts comparing performance metrics for predicting H1N1 vaccination.*
 
@@ -194,7 +194,7 @@ XGBoost| 0.797|0.794|0.800|0.825|
 Neural Network|0.800|0.864|0.800|0.834|
 
 
-<img src="figures/seasonal_initial_metrics.png" height=400 />
+<img src="figures/seasonal_initial_metrics.png" height=300 />
 
 ###### Figure 7.*Radar charts comparing performance metrics for predicting seasonal flu vaccination.*
 
