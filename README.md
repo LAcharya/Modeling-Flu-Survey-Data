@@ -81,7 +81,7 @@ We first performed exploratory data analysis and null imputation on our dataset 
 
 **Exploring Nulls**: The survey was done over phone and respondents were allowed to refuse to respond to any question asked. These represented a large portion of the nulls in the data. To better understand the distribution of nulls, we first examine which features had the most missing data (Figure 2 (Left)) and discovered that some features were missing upto half of their data. Next, we compared the number of nulls to the page number on the survey questions script that the question appeared on. We found that as the survey progressed, the number of null values increased (Figure 2 (Right)).    
 
-<img src="figures/page_num_nulls.png" width=500 />
+<img src="figures/page_num_nulls.png" width=700 />
 
 ###### **Figure 2.** ***Left**: A barchart of the top 10 of 36 features that had the most number of nulls. **Right**: A scatterplot of the number of null values in a given feature column versus the page number that the corresponding question appears on in the survey. There is a clear increase in the number of nulls as the survey progresses.*
 
